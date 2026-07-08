@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: mcqgen
+Version: 0.0.1
+Author: athira
+Author-email: athirapt998@gmail.com
+Requires-Dist: langchain==1.2.13
+Requires-Dist: langchain-community==0.4.1
+Requires-Dist: langchain-core==1.2.22
+Requires-Dist: langchain-groq==1.1.2
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: PyPDF2
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
