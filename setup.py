@@ -14,5 +14,6 @@ setup(
     "python-dotenv",
     "PyPDF2"
 ],
-    packages=find_packages()
+    packages=find_packages(where="src"),
+    package_dir={"": "src"}
 )
