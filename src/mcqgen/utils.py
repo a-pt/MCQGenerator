@@ -27,11 +27,12 @@ def read_file(file):
 
 def get_table_data(quiz_str):
     try:
+        # print("quiz_str",quiz_str)
         quiz_dict = json.loads(quiz_str)
         quiz_table_data = []
         for key, value in quiz_dict.items():
             mcq = value["mcq"]
-            options = " | ".join(
+            options = "  \n".join(
                 [
                     f"{option}: {option_value}"
                     for option, option_value in value["options"].items()
